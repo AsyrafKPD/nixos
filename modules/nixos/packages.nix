@@ -23,5 +23,6 @@
     mangohud
     msnap
     wl-mirror
+    sof-firmware
   ];
 }
