@@ -24,5 +24,6 @@
     msnap
     wl-mirror
     sof-firmware
+    pavucontrol
   ];
 }

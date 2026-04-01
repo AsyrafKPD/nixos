@@ -41,7 +41,6 @@
     "i915.enable_fbc=1" # framebuffer compression
     "i915.enable_psr=0" # disable panel self-refresh (common stutter cause!)
     "i915.enable_guc=2" # enable GuC/HuC firmware
-    "snd_intel_dspcfg.dsp_driver=3" # To use intel audio driver
   ];
   boot.initrd.verbose = false;
   boot.consoleLogLevel = 0;
