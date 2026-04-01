@@ -5,12 +5,11 @@
 }: {
   home.packages = with pkgs; [
     wswitch
-    papirus-icon-theme
     gnome-themes-extra
   ];
 
   home.file = {
-    ".icons/Papirus-Dark".source = "${pkgs.papirus-icon-theme}/share/icons/Papirus-Dark";
+    ".icons/Gruvbox-Plus-Dark".source = "${pkgs.gruvbox-plus-icons}/share/icons/Gruvbox-Plus-Dark";
     ".icons/Adwaita".source = "${pkgs.adwaita-icon-theme}/share/icons/Adwaita";
   };
   xdg.configFile."wswitch/config.ini".text = ''
@@ -28,7 +27,7 @@
     border_color = #e78a4e
 
     [icons]
-    theme = Papirus-Dark
+    theme = Gruvbox-Plus-Dark
     fallback = Adwaita
     show_letter_fallback = true
 
