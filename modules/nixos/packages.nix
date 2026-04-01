@@ -2,6 +2,7 @@
   environment.systemPackages = with pkgs; [
     xwayland
     wl-clipboard
+    gh
     grim
     slurp
     foomatic-db-engine
@@ -21,5 +22,6 @@
     vulkan-tools
     mangohud
     msnap
+    wl-mirror
   ];
 }

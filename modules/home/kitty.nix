@@ -7,8 +7,8 @@
 
     # ── Font ──────────────────────────────────────────────────────
     font = {
-      name = "MartianMono Nerd Font";
-      size = 11;
+      name = "JetBrainsMono Nerd Font";
+      size = 12;
     };
     themeFile = "GruvboxMaterialDarkMedium";
 

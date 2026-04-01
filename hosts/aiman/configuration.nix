@@ -69,6 +69,8 @@
   services.pipewire = {
     enable = true;
     pulse.enable = true;
+    alsa.enable = true;
+    wireplumber.enable = true;
   };
 
   services.libinput.enable = true;
@@ -115,6 +117,7 @@
   security.sudo.extraConfig = ''
     Defaults env_keep += "WAYLAND_DISPLAY XDG_RUNTIME_DIR"
   '';
+  security.rtkit.enable = true;
 
   # ── Hardware ──────────────────────────────────────────────────────
   hardware.bluetooth.enable = true;
