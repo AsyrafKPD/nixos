@@ -25,5 +25,8 @@
     wl-mirror
     sof-firmware
     pavucontrol
+    mission-center
+    x264
+    x265
   ];
 }

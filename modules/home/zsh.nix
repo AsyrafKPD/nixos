@@ -35,7 +35,7 @@
 
       # Replaces accepted prompt with a clean arrow
       transient_prompt = {
-        foreground = "#ebdbb2";
+        foreground = "#E78A4E";
         background = "transparent";
         template = "╰──>> ";
       };
@@ -330,6 +330,9 @@
           "  gp                git push"
           "  gl                git log (graph)"
           "  gd                git diff"
+          ""
+          "── Aliases — Git ───────────────────────────"
+          "  gh                Create GitHub repo"
           ""
           "── Aliases — Zoxide ────────────────────────"
           "  z <query>         smart jump"

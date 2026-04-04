@@ -26,7 +26,7 @@ in {
           undercurl        = true,
           underline        = true,
           bold             = true,
-          contrast         = "hard",        -- "hard" | "medium" | "soft"
+          contrast         = "medium",        -- "hard" | "medium" | "soft"
           italic = {
             strings   = true,
             emphasis  = true,
