@@ -12,5 +12,6 @@
     ./nemo.nix
     ./codium.nix
     ./wswitch.nix
+    ./obs.nix
   ];
 }
