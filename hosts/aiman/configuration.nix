@@ -13,7 +13,7 @@
   # ── User ──────────────────────────────────────────────────────────
   users.users.asyraf = {
     isNormalUser = true;
-    extraGroups = ["wheel" "networkmanager" "wwwrun"];
+    extraGroups = ["wheel" "networkmanager" "wwwrun" "video" "render"];
     packages = with pkgs; [tree];
   };
 
